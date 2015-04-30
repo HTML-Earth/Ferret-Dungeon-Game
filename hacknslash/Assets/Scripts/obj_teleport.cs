@@ -3,7 +3,7 @@ using System.Collections;
 
 public class obj_teleport : MonoBehaviour
 {
-	public bool enabled;
+	public bool isEnabled;
 
 	public GameObject exit;
 	Vector3 destination;
@@ -22,7 +22,7 @@ public class obj_teleport : MonoBehaviour
 
 	void OnTriggerEnter(Collider traveler)
 	{
-		if (traveler.tag == "Player" && enabled && Time.time-cooldown > 0.5f)
+		if (traveler.tag == "Player" && isEnabled && Time.time-cooldown > 0.5f)
 		{
 			traveler.transform.position = destination;
 			unit_health playerhp = traveler.GetComponent<unit_health>();

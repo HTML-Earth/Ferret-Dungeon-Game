@@ -22,7 +22,7 @@ public class ui_game : MonoBehaviour
 
 	public float fov = 80;
 
-	camera camera;
+	//camera theCamera;
 	p_movement p_move;
 
 	public GameObject pauseMenu;
@@ -36,7 +36,7 @@ public class ui_game : MonoBehaviour
 	{
 		playerBar = GameObject.FindGameObjectWithTag("Player").GetComponent<ui_healthbar>();
 		p_move = GameObject.FindGameObjectWithTag("Player").GetComponent<p_movement>();
-		camera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<camera>();
+		//theCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<camera>();
 
 
 		bar = transform.FindChild("HealthBar").GetComponent<Scrollbar>();
@@ -102,7 +102,7 @@ public class ui_game : MonoBehaviour
 		fov = settingsMenu.transform.FindChild("fovSlider").GetComponent<Slider>().value;
 		Text fovnumber = settingsMenu.transform.FindChild("fovSlider").FindChild("fovNumber").GetComponent<Text>();
 		fovnumber.text = "" + Mathf.Floor(fov);
-		//camera.fov = fov;
+		//theCamera.fov = fov;
 	}
 
 	public void TogglePauseMenu()
@@ -124,8 +124,8 @@ public class ui_game : MonoBehaviour
 	public void ToggleMouseControls()
 	{
 		//p_move.mouseMovement = !p_move.mouseMovement;
-		//camera.mouseZoom = !camera.mouseZoom;
-		//Debug.Log(p_move.mouseMovement + " " + camera.mouseZoom);
+		//theCamera.mouseZoom = !theCamera.mouseZoom;
+		//Debug.Log(p_move.mouseMovement + " " + theCamera.mouseZoom);
 	}
 
 	public void ToggleHealthBar(int index)

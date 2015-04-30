@@ -20,7 +20,7 @@ public class ui_healthbar : MonoBehaviour
 	Scrollbar bar;
 	Text text;
 
-	camera camera;
+	camera theCamera;
 	float cameraOffset;
 
 	Transform unit;
@@ -31,7 +31,7 @@ public class ui_healthbar : MonoBehaviour
 	void Start ()
 	{
 		unit = GetComponentInParent<Transform>();
-		camera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<camera>();
+		theCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<camera>();
 
 		GameObject healthBarObject = Instantiate(healthBar, unit.position, Quaternion.identity) as GameObject;
 
@@ -75,8 +75,8 @@ public class ui_healthbar : MonoBehaviour
 			image.canvasRenderer.SetColor(new Color (image.canvasRenderer.GetColor().r, image.canvasRenderer.GetColor().g, image.canvasRenderer.GetColor().b, alpha + 2));
 			text.canvasRenderer.SetColor(new Color (1, 1, 1, alpha));
 
-			bar.transform.position = new Vector3(transform.position.x, transform.position.y + camera.height * 0.05f + unitHeight, transform.position.z + camera.height * 0.04f);
-			bar.transform.LookAt(new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y, Camera.main.transform.position.z), -Vector3.up);
+			bar.transform.position = new Vector3(transform.position.x, transform.position.y + theCamera.height * 0.05f + unitHeight, transform.position.z + theCamera.height * 0.04f);
+			bar.transform.LookAt(new Vector3(theCamera.transform.position.x, theCamera.transform.position.y, theCamera.transform.position.z), -Vector3.up);
 			bar.transform.rotation = Quaternion.Euler(bar.transform.rotation.eulerAngles.x + 180, 180, bar.transform.rotation.eulerAngles.z);
 		}
 	}

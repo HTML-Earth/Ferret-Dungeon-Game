@@ -9,7 +9,7 @@ public class obj_crystal : MonoBehaviour
 	
 	BoxCollider boxCol;
 	MeshRenderer mesh;
-	Light light;
+	Light crystalLight;
 	bool done;
 	float waitTime;
 	
@@ -19,7 +19,7 @@ public class obj_crystal : MonoBehaviour
 		
 		boxCol = gameObject.GetComponent<BoxCollider>();
 		mesh = gameObject.GetComponent<MeshRenderer>();
-		light = gameObject.GetComponentInChildren<Light>();
+		crystalLight = gameObject.GetComponentInChildren<Light>();
 
 		waitTime = Time.time;
 	}
@@ -38,7 +38,7 @@ public class obj_crystal : MonoBehaviour
 			
 			boxCol.enabled = false;
 			mesh.enabled = false;
-			light.enabled = false;
+			crystalLight.enabled = false;
 
 			waitTime = Time.time;
 
