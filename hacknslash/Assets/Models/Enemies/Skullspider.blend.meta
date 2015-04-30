@@ -1,0 +1,128 @@
+fileFormatVersion: 2
+guid: bfd7e12e9f492ad4e9af516d60f6ba1b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: head
+    100004: l_backleg01
+    100006: l_backleg02
+    100008: l_backleg03
+    100010: l_backleg04
+    100012: l_fang
+    100014: l_frontleg01
+    100016: l_frontleg02
+    100018: l_frontleg03
+    100020: l_frontleg04
+    100022: l_midleg01
+    100024: l_midleg02
+    100026: l_midleg03
+    100028: l_midleg04
+    100030: r_backleg01
+    100032: r_backleg02
+    100034: r_backleg03
+    100036: r_backleg04
+    100038: r_fang
+    100040: r_frontleg01
+    100042: r_frontleg02
+    100044: r_frontleg03
+    100046: r_frontleg04
+    100048: r_midleg01
+    100050: r_midleg02
+    100052: r_midleg03
+    100054: r_midleg04
+    100056: root
+    100058: skulleton
+    100060: skullspider
+    400000: //RootNode
+    400002: head
+    400004: l_backleg01
+    400006: l_backleg02
+    400008: l_backleg03
+    400010: l_backleg04
+    400012: l_fang
+    400014: l_frontleg01
+    400016: l_frontleg02
+    400018: l_frontleg03
+    400020: l_frontleg04
+    400022: l_midleg01
+    400024: l_midleg02
+    400026: l_midleg03
+    400028: l_midleg04
+    400030: r_backleg01
+    400032: r_backleg02
+    400034: r_backleg03
+    400036: r_backleg04
+    400038: r_fang
+    400040: r_frontleg01
+    400042: r_frontleg02
+    400044: r_frontleg03
+    400046: r_frontleg04
+    400048: r_midleg01
+    400050: r_midleg02
+    400052: r_midleg03
+    400054: r_midleg04
+    400056: root
+    400058: skulleton
+    400060: skullspider
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Sphere
+    4300002: skullspider
+    7400000: Default Take
+    9500000: //RootNode
+    13700000: skullspider
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
