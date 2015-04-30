@@ -5,7 +5,7 @@ public class ai_skullspider : MonoBehaviour
 {
 	e_animation anim;
 	GameObject player;
-
+	//This comment is necessary.
 	public string state = "Guard";
 	public float aggroRange = 40;
 	public float forgetRange = 80;
