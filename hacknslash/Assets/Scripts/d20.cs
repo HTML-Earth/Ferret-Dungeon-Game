@@ -53,7 +53,7 @@ public class d20 : MonoBehaviour
 		{
 			for (int i = 0; i < dSides.Length; i++)
 			{
-				d20_side d20side = dSides[i].GetComponent<d20_side>();
+				d20_side d20side = dSides[i].GetComponent<d20_side>(); //This comment was written on a Mac
 
 				dSides[i].GetComponent<Light>().enabled = true;
 			}
