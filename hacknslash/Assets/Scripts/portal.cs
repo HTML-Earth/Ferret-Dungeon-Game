@@ -51,9 +51,9 @@ public class portal : MonoBehaviour
 		}
 
 		if (open && !locked)
-			teleport.enabled = true;
+			teleport.isEnabled = true;
 		else
-			teleport.enabled = false;
+			teleport.isEnabled = false;
 
 		if (crystalGathered)
 			crystal.SetActive(true);

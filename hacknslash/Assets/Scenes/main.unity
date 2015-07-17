@@ -303,7 +303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2b1242b1e7d5345b37642ef6025830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabled: 0
+  isEnabled: 0
   exit: {fileID: 792500748}
 --- !u!65 &30242247
 BoxCollider:
@@ -428,7 +428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2b1242b1e7d5345b37642ef6025830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabled: 0
+  isEnabled: 0
   exit: {fileID: 792500748}
 --- !u!65 &62622058
 BoxCollider:
@@ -604,7 +604,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 92717528}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -693,7 +693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2b1242b1e7d5345b37642ef6025830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabled: 0
+  isEnabled: 0
   exit: {fileID: 792500748}
 --- !u!65 &95211127
 BoxCollider:
@@ -921,7 +921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2b1242b1e7d5345b37642ef6025830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabled: 0
+  isEnabled: 0
   exit: {fileID: 792500748}
 --- !u!65 &132144239
 BoxCollider:
@@ -1089,7 +1089,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 162151066}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1652,7 +1652,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2b1242b1e7d5345b37642ef6025830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabled: 0
+  isEnabled: 0
   exit: {fileID: 792500748}
 --- !u!65 &254567211
 BoxCollider:
@@ -2205,7 +2205,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 392496162}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -2309,7 +2309,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 405475078}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -2420,8 +2420,7 @@ MonoBehaviour:
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2573,7 +2572,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 456779721}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -3074,8 +3073,7 @@ MonoBehaviour:
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3285,7 +3283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2b1242b1e7d5345b37642ef6025830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabled: 0
+  isEnabled: 0
   exit: {fileID: 792500748}
 --- !u!65 &536555610
 BoxCollider:
@@ -3491,7 +3489,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 567186478}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -3820,8 +3818,7 @@ MonoBehaviour:
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4151,7 +4148,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 722507226}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -4620,7 +4617,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 764777918}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -4786,7 +4783,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 790347098}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -5115,7 +5112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2b1242b1e7d5345b37642ef6025830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabled: 0
+  isEnabled: 0
   exit: {fileID: 792500748}
 --- !u!65 &807498822
 BoxCollider:
@@ -5434,8 +5431,7 @@ MonoBehaviour:
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5867,8 +5863,7 @@ MonoBehaviour:
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5923,6 +5918,7 @@ MonoBehaviour:
   m_SubmitButton: Submit
   m_CancelButton: Cancel
   m_InputActionsPerSecond: 10
+  m_RepeatDelay: .5
   m_AllowActivationOnMobileDevice: 0
 --- !u!114 &899642408
 MonoBehaviour:
@@ -6779,7 +6775,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1034791664}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -6922,8 +6918,7 @@ MonoBehaviour:
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7043,8 +7038,7 @@ MonoBehaviour:
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7463,8 +7457,7 @@ MonoBehaviour:
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7782,8 +7775,7 @@ MonoBehaviour:
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7883,7 +7875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2b1242b1e7d5345b37642ef6025830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabled: 0
+  isEnabled: 0
   exit: {fileID: 792500748}
 --- !u!65 &1199219341
 BoxCollider:
@@ -7939,7 +7931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2b1242b1e7d5345b37642ef6025830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabled: 0
+  isEnabled: 0
   exit: {fileID: 792500748}
 --- !u!65 &1207075877
 BoxCollider:
@@ -8076,7 +8068,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1247130886}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -8349,6 +8341,10 @@ Prefab:
       propertyPath: exit
       value: 
       objectReference: {fileID: 1975429695}
+    - target: {fileID: 11400000, guid: ba83f9acaa6b2494bb8dcf45a2e9e950, type: 2}
+      propertyPath: isEnabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ba83f9acaa6b2494bb8dcf45a2e9e950, type: 2}
   m_IsPrefabParent: 0
@@ -8738,8 +8734,7 @@ MonoBehaviour:
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -8828,7 +8823,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1338217150}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -9144,7 +9139,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1364445685}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -9487,8 +9482,7 @@ MonoBehaviour:
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
@@ -9687,8 +9681,7 @@ MonoBehaviour:
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -9920,6 +9913,7 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: .0219999999
+  m_StereoMirrorMode: 0
 --- !u!4 &1469252609
 Transform:
   m_ObjectHideFlags: 0
@@ -10152,7 +10146,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1502809231}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -10248,7 +10242,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1505128190}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -10494,8 +10488,7 @@ MonoBehaviour:
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -10577,7 +10570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2b1242b1e7d5345b37642ef6025830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabled: 0
+  isEnabled: 0
   exit: {fileID: 792500748}
 --- !u!65 &1551552018
 BoxCollider:
@@ -10734,7 +10727,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1568244681}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -10834,7 +10827,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1580541764}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -11222,7 +11215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2b1242b1e7d5345b37642ef6025830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabled: 0
+  isEnabled: 0
   exit: {fileID: 792500748}
 --- !u!65 &1674375792
 BoxCollider:
@@ -11403,7 +11396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2b1242b1e7d5345b37642ef6025830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabled: 0
+  isEnabled: 0
   exit: {fileID: 792500748}
 --- !u!65 &1732389554
 BoxCollider:
@@ -11463,7 +11456,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2b1242b1e7d5345b37642ef6025830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabled: 0
+  isEnabled: 0
   exit: {fileID: 792500748}
 --- !u!65 &1739760870
 BoxCollider:
@@ -11805,7 +11798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2b1242b1e7d5345b37642ef6025830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabled: 0
+  isEnabled: 0
   exit: {fileID: 792500748}
 --- !u!65 &1773318020
 BoxCollider:
@@ -11931,7 +11924,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2b1242b1e7d5345b37642ef6025830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabled: 0
+  isEnabled: 0
   exit: {fileID: 792500748}
 --- !u!65 &1776837580
 BoxCollider:
@@ -12079,8 +12072,7 @@ MonoBehaviour:
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -12451,7 +12443,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1848153065}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -12616,7 +12608,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1867119574}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -13046,6 +13038,10 @@ Prefab:
       propertyPath: enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: ba83f9acaa6b2494bb8dcf45a2e9e950, type: 2}
+      propertyPath: isEnabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ba83f9acaa6b2494bb8dcf45a2e9e950, type: 2}
   m_IsPrefabParent: 0
@@ -13090,7 +13086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2b1242b1e7d5345b37642ef6025830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabled: 0
+  isEnabled: 0
   exit: {fileID: 792500748}
 --- !u!65 &1931618363
 BoxCollider:
@@ -13150,7 +13146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2b1242b1e7d5345b37642ef6025830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabled: 0
+  isEnabled: 0
   exit: {fileID: 792500748}
 --- !u!65 &1934461759
 BoxCollider:
@@ -13431,7 +13427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2b1242b1e7d5345b37642ef6025830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabled: 0
+  isEnabled: 0
   exit: {fileID: 1042854143}
 --- !u!65 &1975429698
 BoxCollider:
@@ -13487,7 +13483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2b1242b1e7d5345b37642ef6025830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabled: 0
+  isEnabled: 0
   exit: {fileID: 792500748}
 --- !u!65 &1978313737
 BoxCollider:
@@ -13880,7 +13876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2b1242b1e7d5345b37642ef6025830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabled: 0
+  isEnabled: 0
   exit: {fileID: 792500748}
 --- !u!65 &2085065397
 BoxCollider:
@@ -13936,7 +13932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2b1242b1e7d5345b37642ef6025830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabled: 0
+  isEnabled: 0
   exit: {fileID: 792500748}
 --- !u!65 &2094061330
 BoxCollider:
@@ -14027,7 +14023,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2110674171}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -14476,7 +14472,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2133948515}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -14602,8 +14598,7 @@ MonoBehaviour:
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
